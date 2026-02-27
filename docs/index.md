@@ -130,3 +130,17 @@ These roadmaps simulate that journey. You start with nothing and add things as y
 <div style="text-align: center; margin: 3rem 0 1rem;">
   <a href="#categories" style="display: inline-block; padding: 0.75rem 2rem; background: var(--vp-c-brand-1); color: white; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1.05rem;">Start Building</a>
 </div>
+
+---
+
+<div style="margin-top: 3rem; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 12px; font-size: 0.9rem; color: var(--vp-c-text-2);">
+
+<h3 style="margin: 0 0 0.75rem; font-size: 1rem; color: var(--vp-c-text-1);">Made with intent</h3>
+
+These project ideas and roadmaps were curated by **[Krushn Dayshmookh](https://github.com/krushndayshmookh)** — Instructor, Full Stack Development at [Newton School of Technology](https://newtonschool.co/newton-school-of-technology), Ajeenkya DY Patil University. Six years of building software, now building the people who build software.
+
+The roadmaps were written by **[Purple](https://openclaw.ai)**, an AI assistant powered by OpenClaw, working from Krushn's pedagogy: don't teach tools in isolation — let students discover them by building real things and hitting real walls.
+
+Want to contribute? Fix a link, add a step, suggest a project — [open a PR](https://github.com/nst-sdc/project-ideas).
+
+</div>
