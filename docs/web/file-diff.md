@@ -1,8 +1,22 @@
 # Web-based File Diff & Merge Tool
 
+
+| | |
+|---|---|
+| Difficulty | Intermediate |
+| Team Size | Solo |
+| Time | ~25-30 hours |
+| Demo-ready by | Step 5 |
+| Prerequisites | JavaScript, algorithms basics, HTML/CSS |
+| Built by | GitHub diff view, Meld, Beyond Compare, WinMerge |
+
+**Skills you'll earn:** Diff algorithms (Myers), syntax highlighting, three-way merge, conflict resolution, side-by-side rendering
+
 Start with comparing two strings. End with a collaborative merge tool.
 
-## Step 1: Compare two text inputs
+(Assumes starting from scratch with basic HTML/CSS/JS knowledge)
+
+## Step 1: Compare two text inputs (~2-3 hours)
 
 You have two versions of a file. You want to see what changed.
 
@@ -13,7 +27,7 @@ You have two versions of a file. You want to see what changed.
 
 **You now have:** A basic text diff viewer.
 
-## Step 2: Side-by-side view
+## Step 2: Side-by-side view (~3-4 hours)
 
 The combined output is hard to follow. You want to see both versions aligned.
 
@@ -24,7 +38,7 @@ The combined output is hard to follow. You want to see both versions aligned.
 
 **You now have:** A proper side-by-side diff.
 
-## Step 3: Load from files
+## Step 3: Load from files (~1-2 hours)
 
 Pasting into textareas doesn't scale.
 
@@ -35,7 +49,7 @@ Pasting into textareas doesn't scale.
 
 **You now have:** File-based diffing.
 
-## Step 4: Syntax highlighting
+## Step 4: Syntax highlighting (~2-3 hours)
 
 You're diffing code. Plain text makes it hard to read.
 
@@ -45,7 +59,7 @@ You're diffing code. Plain text makes it hard to read.
 
 **You now have:** A code-aware diff viewer.
 
-## Step 5: Merge editor
+## Step 5: Merge editor (~4-5 hours)
 
 You see the differences. Now you want to pick which version to keep for each change.
 
@@ -56,7 +70,7 @@ You see the differences. Now you want to pick which version to keep for each cha
 
 **You now have:** An interactive merge tool.
 
-## Step 6: Three-way merge
+## Step 6: Three-way merge (~4-5 hours)
 
 Two people edited the same file. You need to reconcile both against the original.
 
@@ -67,23 +81,32 @@ Two people edited the same file. You need to reconcile both against the original
 
 **You now have:** Three-way merge like Git.
 
-## Step 7: Server-side API
+## Step 7: Server-side API (~2-3 hours)
 
 - Build an API that accepts two (or three) files and returns the diff as structured JSON
 - Use this for CI pipelines, code review tools, or bots
 - Support different output formats (unified diff, JSON, HTML)
 
-## Step 8: Folder diff
+## Step 8: Folder diff (~3-4 hours)
 
 - Compare two directories recursively
 - Show a file tree with status icons (added, modified, deleted, unchanged)
 - Click a file to see its line-level diff
 
-## Step 9: Deploy
+## Step 9: Deploy (~2 hours)
 
 - Containerize and deploy
 - Add CI/CD
 - Rate-limit the API
+
+## Useful Resources
+
+- [diff (npm)](https://www.npmjs.com/package/diff) — JavaScript text diffing library (Myers algorithm)
+- [CodeMirror Merge View](https://codemirror.net/try/?example=Merge%20View) — Diff/merge extension for CodeMirror
+- [FileReader API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) — Read local files in the browser
+- [Prism.js](https://prismjs.com/) — Syntax highlighting for code diffs
+- [Three-way merge (Wikipedia)](https://en.wikipedia.org/wiki/Merge_(version_control)#Three-way_merge) — Understanding merge algorithms
+- [Unified Diff Format](https://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html) — Standard diff output format
 
 ## Where to go from here
 

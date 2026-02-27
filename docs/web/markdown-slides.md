@@ -1,8 +1,22 @@
 # Markdown-to-Slides Generator
 
+
+| | |
+|---|---|
+| Difficulty | Intermediate |
+| Team Size | Solo |
+| Time | ~25-30 hours |
+| Demo-ready by | Step 5 |
+| Prerequisites | HTML, CSS, JavaScript, Markdown basics |
+| Built by | Reveal.js, Slidev, Marp, Google Slides |
+
+**Skills you'll earn:** Markdown parsing, CSS transitions, keyboard navigation, PDF export, theming architecture
+
 Start with rendering markdown. End with a full presentation tool.
 
-## Step 1: Render markdown as slides
+(Assumes starting from scratch with basic HTML/CSS/JS knowledge)
+
+## Step 1: Render markdown as slides (~2-3 hours)
 
 You have a markdown file. You want each `---` separator to become a slide.
 
@@ -13,7 +27,7 @@ You have a markdown file. You want each `---` separator to become a slide.
 
 **You now have:** A basic slide viewer.
 
-## Step 2: Keyboard navigation
+## Step 2: Keyboard navigation (~1-2 hours)
 
 Clicking buttons during a talk is awkward.
 
@@ -23,7 +37,7 @@ Clicking buttons during a talk is awkward.
 
 **You now have:** Keyboard-driven navigation.
 
-## Step 3: Style the slides
+## Step 3: Style the slides (~2-3 hours)
 
 Your slides look like a web page, not a presentation.
 
@@ -34,7 +48,7 @@ Your slides look like a web page, not a presentation.
 
 **You now have:** Slides that look like slides.
 
-## Step 4: Load from a file
+## Step 4: Load from a file (~1-2 hours)
 
 You're editing markdown in the HTML source. That's painful.
 
@@ -45,7 +59,7 @@ You're editing markdown in the HTML source. That's painful.
 
 **You now have:** A file-based workflow.
 
-## Step 5: Code blocks and syntax highlighting
+## Step 5: Code blocks and syntax highlighting (~2 hours)
 
 You're presenting about code. Your code blocks look plain.
 
@@ -55,7 +69,7 @@ You're presenting about code. Your code blocks look plain.
 
 **You now have:** Developer-friendly slides.
 
-## Step 6: Speaker notes
+## Step 6: Speaker notes (~2-3 hours)
 
 You need reminders about what to say, but the audience shouldn't see them.
 
@@ -65,7 +79,7 @@ You need reminders about what to say, but the audience shouldn't see them.
 
 **You now have:** A presenter mode.
 
-## Step 7: Transitions and animations
+## Step 7: Transitions and animations (~2-3 hours)
 
 Slides snap from one to the next. You want some polish.
 
@@ -75,7 +89,7 @@ Slides snap from one to the next. You want some polish.
 
 **You now have:** Animated presentations.
 
-## Step 8: Export to PDF
+## Step 8: Export to PDF (~2-3 hours)
 
 Your professor wants a PDF. Your colleague doesn't have a browser.
 
@@ -83,17 +97,26 @@ Your professor wants a PDF. Your colleague doesn't have a browser.
 - Or use Puppeteer on the server to generate a PDF
 - Each slide becomes one page, properly sized
 
-## Step 9: Theming system
+## Step 9: Theming system (~2-3 hours)
 
 - Support multiple built-in themes
 - Let users define custom themes via CSS or frontmatter
 - Add background images and gradients per-slide
 
-## Step 10: Deploy as a service
+## Step 10: Deploy as a service (~2-3 hours)
 
 - Build a server that accepts markdown and returns a hosted presentation
 - Generate a shareable URL for each deck
 - Add CI/CD and containerize
+
+## Useful Resources
+
+- [marked (GitHub)](https://github.com/markedjs/marked) — Fast markdown parser for JavaScript
+- [markdown-it (GitHub)](https://github.com/markdown-it/markdown-it) — Pluggable markdown parser
+- [Prism.js](https://prismjs.com/) — Syntax highlighting for code blocks in slides
+- [CSS Transitions — MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions) — Animate slide transitions
+- [Window.postMessage — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) — Cross-window communication for speaker notes
+- [Reveal.js (GitHub)](https://github.com/hakimel/reveal.js) — Popular HTML presentation framework for inspiration
 
 ## Where to go from here
 

@@ -1,8 +1,22 @@
 # Email Service
 
+
+| | |
+|---|---|
+| Difficulty | Advanced |
+| Team Size | 2-3 people |
+| Time | ~35-40 hours |
+| Demo-ready by | Step 5 |
+| Prerequisites | Node.js, TCP/IP basics, DNS fundamentals |
+| Built by | Gmail, ProtonMail, Fastmail, Postfix |
+
+**Skills you'll earn:** SMTP protocol, IMAP implementation, TLS encryption, DNS records (MX/SPF/DKIM), spam filtering
+
 Start with sending a string from one place to another. End with a self-hosted email system.
 
-## Step 1: Send a message between two scripts
+(Assumes basic Node.js knowledge; networking concepts learned along the way)
+
+## Step 1: Send a message between two scripts (~1 hour)
 
 Write two Node.js scripts. One listens on a TCP port. The other connects and sends a string. The listener prints it.
 
@@ -12,7 +26,7 @@ Write two Node.js scripts. One listens on a TCP port. The other connects and sen
 
 **You now have:** The most primitive message delivery system.
 
-## Step 2: Follow the SMTP protocol
+## Step 2: Follow the SMTP protocol (~3-4 hours)
 
 Your TCP chat works, but no email client can talk to it. Email uses SMTP.
 
@@ -22,7 +36,7 @@ Your TCP chat works, but no email client can talk to it. Email uses SMTP.
 
 **You now have:** An SMTP server that can receive mail.
 
-## Step 3: Store received emails
+## Step 3: Store received emails (~2 hours)
 
 Your server receives messages but they vanish after printing.
 
@@ -32,7 +46,7 @@ Your server receives messages but they vanish after printing.
 
 **You now have:** A mailbox.
 
-## Step 4: Send emails out
+## Step 4: Send emails out (~3-4 hours)
 
 You can receive but not send. Time to be an SMTP client.
 
@@ -42,7 +56,7 @@ You can receive but not send. Time to be an SMTP client.
 
 **You now have:** Bidirectional email.
 
-## Step 5: Add a web interface
+## Step 5: Add a web interface (~3-4 hours)
 
 Reading email from files is painful.
 
@@ -53,7 +67,7 @@ Reading email from files is painful.
 
 **You now have:** Webmail.
 
-## Step 6: User accounts and mailboxes
+## Step 6: User accounts and mailboxes (~3 hours)
 
 Everyone's mail is in one pile.
 
@@ -63,7 +77,7 @@ Everyone's mail is in one pile.
 
 **You now have:** Multi-user email.
 
-## Step 7: IMAP support
+## Step 7: IMAP support (~4-5 hours)
 
 Your users want to use Thunderbird or Apple Mail, not just your web UI.
 
@@ -73,7 +87,7 @@ Your users want to use Thunderbird or Apple Mail, not just your web UI.
 
 **You now have:** A real email server.
 
-## Step 8: DNS records
+## Step 8: DNS records (~2-3 hours)
 
 Emails you send get rejected or land in spam.
 
@@ -84,7 +98,7 @@ Emails you send get rejected or land in spam.
 
 **You now have:** Deliverable email.
 
-## Step 9: TLS encryption
+## Step 9: TLS encryption (~2 hours)
 
 Everything is in plaintext. Anyone on the network can read your emails.
 
@@ -92,7 +106,7 @@ Everything is in plaintext. Anyone on the network can read your emails.
 - Generate or obtain TLS certificates
 - Enforce encryption for connections
 
-## Step 10: Spam filtering
+## Step 10: Spam filtering (~3 hours)
 
 Your inbox is filling with junk.
 
@@ -101,24 +115,33 @@ Your inbox is filling with junk.
 - Score messages based on content heuristics
 - Move suspected spam to a separate folder
 
-## Step 11: Attachments
+## Step 11: Attachments (~2-3 hours)
 
 - Parse MIME multipart messages
 - Extract and store attachments
 - Display them in the web UI
 - Allow attaching files when composing
 
-## Step 12: Search
+## Step 12: Search (~2 hours)
 
 - Index messages for full-text search
 - Search by sender, subject, body, date range
 
-## Step 13: Deploy
+## Step 13: Deploy (~3 hours)
 
 - Containerize the whole thing
 - Deploy to the cluster
 - Open ports 25 (SMTP), 143 (IMAP), 443 (webmail)
 - Monitor delivery rates and bounce handling
+
+## Useful Resources
+
+- [RFC 5321 — SMTP Protocol](https://datatracker.ietf.org/doc/html/rfc5321)
+- [RFC 3501 — IMAP Protocol](https://datatracker.ietf.org/doc/html/rfc3501)
+- [Node.js net module](https://nodejs.org/api/net.html)
+- [Nodemailer](https://nodemailer.com/)
+- [How Email Works (MX, SPF, DKIM)](https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/)
+- [Let's Encrypt](https://letsencrypt.org/docs/)
 
 ## Where to go from here
 

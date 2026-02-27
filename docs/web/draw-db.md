@@ -1,8 +1,22 @@
 # Draw DB Clone
 
+
+| | |
+|---|---|
+| Difficulty | Intermediate |
+| Team Size | 2-3 people |
+| Time | ~30-40 hours |
+| Demo-ready by | Step 4 |
+| Prerequisites | HTML, CSS, JavaScript, Canvas API basics, SQL fundamentals |
+| Built by | DrawDB, dbdiagram.io, Lucidchart, ERDPlus |
+
+**Skills you'll earn:** Canvas rendering, drag-and-drop, SQL generation, undo/redo patterns, real-time collaboration
+
 Start with boxes on a canvas. End with a full database schema designer.
 
-## Step 1: Draw a box on a canvas
+(Assumes starting from scratch with basic HTML/CSS/JS knowledge)
+
+## Step 1: Draw a box on a canvas (~2-3 hours)
 
 You want to represent a database table visually. Start with a rectangle.
 
@@ -13,7 +27,7 @@ You want to represent a database table visually. Start with a rectangle.
 
 **You now have:** Draggable boxes on a canvas.
 
-## Step 2: Add columns to tables
+## Step 2: Add columns to tables (~3-4 hours)
 
 A box with just a name isn't useful. Tables have columns.
 
@@ -24,7 +38,7 @@ A box with just a name isn't useful. Tables have columns.
 
 **You now have:** Table definitions with columns.
 
-## Step 3: Draw relationships
+## Step 3: Draw relationships (~4-5 hours)
 
 Tables reference each other. You need foreign key lines.
 
@@ -35,7 +49,7 @@ Tables reference each other. You need foreign key lines.
 
 **You now have:** An ER diagram with relationships.
 
-## Step 4: Generate SQL
+## Step 4: Generate SQL (~3-4 hours)
 
 The diagram is nice, but you need actual DDL to create the database.
 
@@ -46,7 +60,7 @@ The diagram is nice, but you need actual DDL to create the database.
 
 **You now have:** SQL generation from a visual schema.
 
-## Step 5: Import from existing databases
+## Step 5: Import from existing databases (~3-4 hours)
 
 You have a database already. You don't want to recreate the schema by hand.
 
@@ -57,7 +71,7 @@ You have a database already. You don't want to recreate the schema by hand.
 
 **You now have:** Reverse engineering from a live database.
 
-## Step 6: Save and load projects
+## Step 6: Save and load projects (~2-3 hours)
 
 You close the tab. Your schema is gone.
 
@@ -68,7 +82,7 @@ You close the tab. Your schema is gone.
 
 **You now have:** Persistent schema projects.
 
-## Step 7: Undo/redo
+## Step 7: Undo/redo (~3-4 hours)
 
 You accidentally deleted a table with twenty columns.
 
@@ -78,23 +92,32 @@ You accidentally deleted a table with twenty columns.
 
 **You now have:** Undo/redo support.
 
-## Step 8: Indexes and enums
+## Step 8: Indexes and enums (~2-3 hours)
 
 - Let users define indexes (single and composite) on tables
 - Support custom enum types
 - Include them in the generated SQL
 
-## Step 9: Collaboration
+## Step 9: Collaboration (~4-5 hours)
 
 - Add real-time collaboration using WebSockets
 - Show cursors of other users on the canvas
 - Lock tables being edited by another user
 
-## Step 10: Deploy
+## Step 10: Deploy (~2-3 hours)
 
 - Containerize the frontend and backend
 - Add CI/CD
 - Set up a domain and TLS
+
+## Useful Resources
+
+- [Canvas API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) — Drawing graphics in the browser
+- [SVG Tutorial — MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) — Alternative to Canvas for diagram rendering
+- [drawDB (GitHub)](https://github.com/drawdb-io/drawdb) — Open-source database diagram editor for inspiration
+- [Drag and Drop API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) — Native drag-and-drop
+- [Command Pattern (Refactoring Guru)](https://refactoring.guru/design-patterns/command) — Foundation for undo/redo
+- [WebSocket API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) — Real-time collaboration
 
 ## Where to go from here
 

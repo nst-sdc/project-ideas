@@ -1,8 +1,22 @@
 # Code Screenshot Generator
 
+
+| | |
+|---|---|
+| Difficulty | Beginner |
+| Team Size | Solo |
+| Time | ~20-25 hours |
+| Demo-ready by | Step 4 |
+| Prerequisites | HTML, CSS, JavaScript |
+| Built by | Carbon, Ray.so, Chalk.ist, Silicon |
+
+**Skills you'll earn:** Syntax highlighting, Canvas API, image export, theming systems, clipboard API
+
 Start with syntax highlighting. End with beautiful, shareable code images.
 
-## Step 1: Highlight code in the browser
+(Assumes starting from scratch with basic HTML/CSS/JS knowledge)
+
+## Step 1: Highlight code in the browser (~2 hours)
 
 You have a code snippet. You want it to look like it does in your editor.
 
@@ -13,7 +27,7 @@ You have a code snippet. You want it to look like it does in your editor.
 
 **You now have:** A browser-based syntax highlighter.
 
-## Step 2: Make it look like an editor window
+## Step 2: Make it look like an editor window (~2 hours)
 
 Highlighted code in a div doesn't look shareable. You want that macOS-window aesthetic.
 
@@ -24,7 +38,7 @@ Highlighted code in a div doesn't look shareable. You want that macOS-window aes
 
 **You now have:** A code block that looks like a screenshot of an editor.
 
-## Step 3: Export as an image
+## Step 3: Export as an image (~2-3 hours)
 
 You can see it in the browser, but you can't paste it into a tweet.
 
@@ -34,7 +48,7 @@ You can see it in the browser, but you can't paste it into a tweet.
 
 **You now have:** Downloadable code screenshots.
 
-## Step 4: Theming
+## Step 4: Theming (~2-3 hours)
 
 Your friend likes dark mode. Your professor wants light mode.
 
@@ -45,7 +59,7 @@ Your friend likes dark mode. Your professor wants light mode.
 
 **You now have:** Customizable themes.
 
-## Step 5: Customization controls
+## Step 5: Customization controls (~2-3 hours)
 
 Users want to tweak font size, padding, and window style.
 
@@ -56,7 +70,7 @@ Users want to tweak font size, padding, and window style.
 
 **You now have:** A fully configurable screenshot tool.
 
-## Step 6: Move it to a server
+## Step 6: Move it to a server (~3-4 hours)
 
 You want to generate screenshots programmatically — for docs, for CI, for bots.
 
@@ -67,7 +81,7 @@ You want to generate screenshots programmatically — for docs, for CI, for bots
 
 **You now have:** A screenshot API.
 
-## Step 7: Copy to clipboard
+## Step 7: Copy to clipboard (~1 hour)
 
 Downloading and then uploading is two steps too many.
 
@@ -75,18 +89,27 @@ Downloading and then uploading is two steps too many.
 - Copy the image blob directly (not a URL)
 - Show a brief confirmation when copied
 
-## Step 8: Share links
+## Step 8: Share links (~2-3 hours)
 
 - Encode the code, language, and settings into a URL (base64 or URL params)
 - Opening the link reconstructs the exact screenshot
 - Add an Open Graph image so the link preview shows the code screenshot
 
-## Step 9: Deploy
+## Step 9: Deploy (~2-3 hours)
 
 - Containerize the frontend and the screenshot API
 - Deploy behind a CDN for the static frontend
 - Rate-limit the API to prevent abuse
 - Add CI/CD
+
+## Useful Resources
+
+- [Prism.js — Syntax Highlighting](https://prismjs.com/) — Lightweight syntax highlighter for the browser
+- [Highlight.js](https://highlightjs.org/) — Alternative syntax highlighting library
+- [html2canvas](https://html2canvas.hertzen.com/) — Capture DOM elements as canvas/images
+- [dom-to-image (GitHub)](https://github.com/tsayen/dom-to-image) — Generate images from DOM nodes
+- [Puppeteer Documentation](https://pptr.dev/) — Headless Chrome for server-side screenshots
+- [Clipboard API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) — Copy images/text to clipboard
 
 ## Where to go from here
 
