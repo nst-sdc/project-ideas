@@ -141,6 +141,8 @@ These project ideas and roadmaps were curated by **[Krushn Dayshmookh](https://g
 
 The roadmaps were written by **[Purple](https://openclaw.ai)**, an AI assistant powered by OpenClaw, working from Krushn's pedagogy: don't teach tools in isolation — let students discover them by building real things and hitting real walls.
 
-Want to contribute? Fix a link, add a step, suggest a project — [open a PR](https://github.com/nst-sdc/project-ideas).
+**This is open source.** Fix a link, improve a step, add a whole new project.
+
+[GitHub Repository](https://github.com/nst-sdc/project-ideas) · [Contributing Guide](https://github.com/nst-sdc/project-ideas/blob/main/CONTRIBUTING.md) · [MIT License](https://github.com/nst-sdc/project-ideas/blob/main/LICENSE)
 
 </div>
