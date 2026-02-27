@@ -79,7 +79,7 @@ npm run docs:dev
 
 ## Code of conduct
 
-Be helpful. Be kind. Don't be a jerk. That's it.
+Be helpful. Be kind. Don't be an idiot. That's it.
 
 ## License
 
